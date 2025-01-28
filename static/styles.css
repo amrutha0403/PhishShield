@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#basic-url {
+    background-color: #42414d;
+    color: #ffffff;
+    text-align: center;
+}
+
+#basic-url::placeholder {
+    color: #a0a0a0;
+    text-align: center;
+}
+
+body {
+    background-color: #212529;
+}
+
+.form-container {
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result {
+    margin-top: 5vh;
+}
+
+.text-on-dark {
+    color: #ffffcc;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer small {
+    font-size: 14px;
+}
+
+.site-name {
+    color: white;
+}
+
+#logo-row {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.label {
+    color: #ffcc00;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.url {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.url:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.result-legitimate {
+    color: green;
+}
+
+.result-phishing {
+    color: red;
+}
+
+.result-legitimate, .result-phishing {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .result-legitimate, .result-phishing {
+        font-size: 1rem;
+    }
+    .url {
+        font-size: 1rem;
+    }
+    .label {
+        font-size: 1rem;
+    }
+}
+
+.p-result {
+    margin-top: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

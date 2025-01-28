@@ -1,0 +1,8 @@
+__pycache__/
+**/__pycache__/
+phishing/
+PhishShield/
+.google-cookie
+.cache/
+.env
+# models/
