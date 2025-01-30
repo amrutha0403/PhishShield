@@ -1,5 +1,11 @@
 # ShieldURL: Detecting Phishing in Real-Time
 
+ShieldURL is an AI-driven phishing detection system designed to identify and prevent phishing attacks by analyzing website URLs. The system employs two distinct machine learning models: a feature-based model that extracts and evaluates URL characteristics and a text-based model that analyzes textual content within URLs.
+
+Using a dataset of phishing and legitimate websites, the models are trained to detect suspicious URLs with high accuracy. The application is built using Python, scikit-learn, and Flask, ensuring a seamless backend for model deployment. The user-friendly web interface, built with HTML, CSS, and Bootstrap, allows users to enter a URL and receive an instant phishing risk assessment.
+
+To enhance performance, the system integrates Flask caching for storing prediction results, minimizing repeated computations. Security is further reinforced with Google reCAPTCHA, preventing automated abuse.
+
 ## Datasets
 
 The project utilizes two separate datasets, each tailored for training a specific machine learning model.
