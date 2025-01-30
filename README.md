@@ -1,15 +1,4 @@
-# PhishShield
-
-## Table of Contents
-
-- [Datasets](#dataset)
-- [Machine Learning Models](#machine-learning-models)
-- [Flask Deployment with Caching](#flask-deployment-with-caching)
-- [Webpage Interface](#webpage-interface)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+# ShieldURL: Detecting Phishing in Real-Time
 
 ## Datasets
 
@@ -93,23 +82,3 @@ To use the PhishShield, follow these steps:
 ## Results
 
 The performance of the phishing detection models is evaluated using metrics such as accuracy, precision, recall, and F1-score. The results demonstrate the effectiveness of each model in distinguishing between phishing and legitimate websites.
-
-### Feature-based Model
-
-<div align="center">
-    <img src="screenshots/result1.png" alt="Image 1" width="900" height="350" style="margin-right: 20px;">
-</div>
-
-### Text-based Model
-
-<div align="center">
-    <img src="screenshots/result2.png" alt="Image 2" width="600" height="350" style="margin-right: 20px;">
-</div>
-
-## Contributing
-
-Contributions to this project are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
