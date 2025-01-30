@@ -1,4 +1,4 @@
-# ShieldURL: Detecting Phishing in Real-Time
+# ShieldURL: Detecting Phishing URLs
 
 ShieldURL is an AI-driven phishing detection system designed to identify and prevent phishing attacks by analyzing website URLs. The system employs two distinct machine learning models: a feature-based model that extracts and evaluates URL characteristics and a text-based model that analyzes textual content within URLs.
 
